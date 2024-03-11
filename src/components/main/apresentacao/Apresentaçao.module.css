@@ -23,15 +23,21 @@
     color: var(--cor3);
 }
 
-.dev{
-    min-width: 200px;
-    max-width: 350px;
-    padding: 10px;
+.profissao{
+    animation: prof 2s ease;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+.linha{
+    animation: linha 10s infinite ease;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
 }
 
 .contatos{
     display: flex;
-    gap: 20px;
+    gap: 15px;
     margin-top: 20px;
 }
 
@@ -45,6 +51,54 @@
 .contato:hover{
     fill: var(--cor3);
     transition: 0.4s;
+}
+
+.dev{
+    min-width: 200px;
+    max-width: 350px;
+    padding: 10px;
+
+    animation: devMove 10s infinite ease;
+    animation-delay: 2s;
+}
+
+
+@keyframes prof {
+    0%{
+        filter: blur(10px);
+    }
+
+    100%{
+        filter: blur(0px);
+    }
+}
+
+@keyframes linha {
+    0%{
+        width: 0px;
+    }
+
+    50%{
+        width: 100%;
+    }
+
+    100%{
+        width: 0px;
+    }
+}
+
+@keyframes devMove {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-40px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
 }
 
 
