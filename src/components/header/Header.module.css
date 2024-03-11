@@ -95,7 +95,7 @@
     }
 
     .menu{
-        display: block;
+        display: none;
         position: absolute;
         top: 0px;
         right: 40px;
