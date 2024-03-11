@@ -95,8 +95,9 @@
     .menu{
         display: none;
         position: absolute;
-        top: 0px;
-        right: 40px;
+        width: 40vw;
+        top: 55px;
+        right: -30px;
         background-color: var(--cor2);
         padding: 20px;
         border-radius: 10px;
