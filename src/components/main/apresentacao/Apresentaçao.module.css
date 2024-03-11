@@ -26,6 +26,7 @@
 .dev{
     min-width: 200px;
     max-width: 350px;
+    padding: 10px;
 }
 
 .contatos{
@@ -50,11 +51,11 @@
 
 @media (max-width: 705px) {
     .nome{
-        font-size: clamp(2.6rem, 10vw, 4rem);
+        font-size: clamp(2rem, 10vw, 4rem);
     }
 
     .profissao{
-        font-size: 1.2rem;
+        font-size: clamp(1rem, 5vw ,1.2rem);
     }
 
     .contato{
@@ -62,7 +63,7 @@
     }
 }
 
-@media (max-width: 374px) {
+@media (max-width: 290px) {
     .nome{
         font-size: 2rem;
     }
