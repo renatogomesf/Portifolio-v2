@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from './img/logo.png'
+
 import styles from './Header.module.css'
 
 import { IoMenu } from "react-icons/io5";
@@ -25,30 +26,28 @@ export default function Header() {
     }
 
     return (
-        <>
-            <header className={styles.topo}>
-                <div className={styles.logoNome}>
-                    <img className={styles.logo} src={Logo} alt="logo" />
-                    <div className={styles.nome}>
-                        <span className={styles.letra}>R</span>
-                        <span className={styles.letra}>D</span>
-                        <span className={styles.letra}>E</span>
-                        <span className={styles.letra}>V</span>
-                    </div>
+        <header className={styles.topo}>
+            <div className={styles.logoNome}>
+                <img className={styles.logo} src={Logo} alt="logo" />
+                <div className={styles.nome}>
+                    <span className={styles.letra}>R</span>
+                    <span className={styles.letra}>D</span>
+                    <span className={styles.letra}>E</span>
+                    <span className={styles.letra}>V</span>
                 </div>
-                <nav className={styles.navegaçao}>
-                    <IoMenu className={styles.openMenu} onClick={()=>abrirMenu()}/>
+            </div>
+            <nav className={styles.navegaçao}>
+                <IoMenu className={styles.openMenu} onClick={()=>abrirMenu()}/>
 
-                    <IoClose className={styles.closeMenu} onClick={()=>fecharMenu()}/>
+                <IoClose className={styles.closeMenu} onClick={()=>fecharMenu()}/>
 
-                    <ul className={styles.menu}>
-                        <li className={styles.item} onClick={()=>fecharMenu()}>Sobre mim</li>
-                        <li className={styles.item} onClick={()=>fecharMenu()}>Habilidades</li>
-                        <li className={styles.item} onClick={()=>fecharMenu()}>Projetos</li>
-                        <li className={styles.item} onClick={()=>fecharMenu()}>Contato</li>
-                    </ul>
-                </nav>
-            </header>
-        </>
+                <ul className={styles.menu}>
+                    <li className={styles.item} onClick={()=>fecharMenu()}>Sobre mim</li>
+                    <li className={styles.item} onClick={()=>fecharMenu()}>Habilidades</li>
+                    <li className={styles.item} onClick={()=>fecharMenu()}>Projetos</li>
+                    <li className={styles.item} onClick={()=>fecharMenu()}>Contato</li>
+                </ul>
+            </nav>
+        </header>
     )
 }
