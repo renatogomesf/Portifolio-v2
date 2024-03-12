@@ -12,6 +12,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 150px;
+    max-width: 1100px;
 }
 
 .titulo{
@@ -24,8 +26,7 @@
     justify-content: center;
     gap: 50px;
     background-color: var(--cor2);
-    max-width: 80%;
-    margin: 10px 10%;
+    margin: 20px 3%;
     padding: 30px 10%;
     border-radius: 10px;
 }
@@ -46,8 +47,11 @@
 
 .paragrafo{
     text-indent: 15px;
-    display: flex;
-    gap: 10px;
+}
+
+strong{
+    font-weight: bold;
+    text-shadow: 2px 2px 1px black;
 }
 
 .ver_curriculo,
@@ -64,7 +68,9 @@
 
 .ver_curriculo:hover,
 .baixar_curriculo:hover{
-    background-color: var(--cor5);
+    background-color: white;
+    color: var(--cor5);
+    box-shadow: 0px 0px 20px 2px var(--cor5);
     transition: 0.4s;
 }
 
