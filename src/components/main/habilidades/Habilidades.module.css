@@ -1,0 +1,277 @@
+
+:root{
+    --cor1: #292e33;
+    --cor2: #344757;
+    --cor3: #0084f0;
+    --cor4: #37658a;
+    --cor5: #2679bd;
+}
+
+.habilidades{
+    margin: 150px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1100px;
+}
+
+.titulo{
+    font-size: 3rem;
+}
+
+.tecnologias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.tecnologia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.img_html,
+.img_css,
+.img_js,
+.img_react,
+.img_vite,
+.img_git,
+.img_github{
+    margin: 20px;
+    width: 100px;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+
+
+
+
+.animaçao_html::before{
+    content: "";
+    background-color: #e34f26;
+    width: 100px;
+    height: 350px;
+    position: absolute;
+    top: -65px;
+    right: 60px;
+    transform-origin: center;
+    z-index: -1;
+    animation: rodar 10s infinite linear;
+}
+
+.animaçao_html::after{
+    content: "";
+    background-color: var(--cor2);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+
+
+
+
+.animaçao_css::before{
+    content: "";
+    background-color: #264de4;
+    width: 100px;
+    height: 350px;
+    position: absolute;
+    top: -65px;
+    right: 60px;
+    transform-origin: center;
+    z-index: -1;
+    animation: rodar 10s infinite linear;
+}
+
+.animaçao_css::after{
+    content: "";
+    background-color: var(--cor2);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+
+
+
+
+.animaçao_js::before{
+    content: "";
+    background-color: #f0dc4e;
+    width: 100px;
+    height: 350px;
+    position: absolute;
+    top: -65px;
+    right: 60px;
+    transform-origin: center;
+    z-index: -1;
+    animation: rodar 10s infinite linear;
+}
+
+.animaçao_js::after{
+    content: "";
+    background-color: var(--cor2);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+
+
+
+
+.animaçao_react::before{
+    content: "";
+    background-color: #61dafb;
+    width: 100px;
+    height: 350px;
+    position: absolute;
+    top: -65px;
+    right: 60px;
+    transform-origin: center;
+    z-index: -1;
+    animation: rodar 10s infinite linear;
+}
+
+.animaçao_react::after{
+    content: "";
+    background-color: var(--cor2);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+
+
+
+
+.animaçao_vite::before{
+    content: "";
+    background-image: linear-gradient(#46caff, #bd34ff) ;
+    width: 100px;
+    height: 350px;
+    position: absolute;
+    top: -65px;
+    right: 60px;
+    transform-origin: center;
+    z-index: -1;
+    animation: rodar 10s infinite linear;
+}
+
+.animaçao_vite::after{
+    content: "";
+    background-color: var(--cor2);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+
+
+
+
+.animaçao_git::before{
+    content: "";
+    background-color: #f05033;
+    width: 100px;
+    height: 350px;
+    position: absolute;
+    top: -65px;
+    right: 60px;
+    transform-origin: center;
+    z-index: -1;
+    animation: rodar 10s infinite linear;
+}
+
+.animaçao_git::after{
+    content: "";
+    background-color: var(--cor2);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+
+
+
+
+.animaçao_github::before{
+    content: "";
+    background-color: #000000;
+    width: 100px;
+    height: 350px;
+    position: absolute;
+    top: -65px;
+    right: 60px;
+    transform-origin: center;
+    z-index: -1;
+    animation: rodar 10s infinite linear;
+}
+
+.animaçao_github::after{
+    content: "";
+    background-color: var(--cor2);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+
+
+@keyframes rodar {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+@media (max-width: 290px) {
+    .titulo{
+        font-size: 2rem;
+    }
+}
