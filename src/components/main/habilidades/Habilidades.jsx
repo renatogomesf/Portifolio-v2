@@ -58,7 +58,6 @@ export default function Habilidades() {
                     <span className={styles.animaçao_github}></span>
                 </div>
 
-
             </div>
         </section>
     )
