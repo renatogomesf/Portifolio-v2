@@ -1,11 +1,12 @@
 
 :root{
-    --cor1: #292e33;
-    --cor2: #344757;
-    --cor3: #0084f0;
-    --cor4: #37658a;
-    --cor5: #2679bd;
+    --cor1: #012030;
+    --cor2: #00334d;
+    --cor3: #45C4B0;
+    --cor4: #9AEBA3;
+    --cor5: #DAFDBA;
 }
+
 
 .apresentaçao{
     display: flex;
@@ -21,7 +22,7 @@
 .nome{
     font-size: 5rem;
     font-weight: 800;
-    color: var(--cor3);
+    color: var(--cor4);
 }
 
 .profissao{
