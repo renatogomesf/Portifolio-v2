@@ -1,0 +1,57 @@
+
+:root{
+    --cor1: #012030;
+    --cor2: #00334d;
+    --cor3: #45C4B0;
+    --cor4: #9AEBA3;
+    --cor5: #DAFDBA;
+}
+
+.linha{
+    border: 1px solid var(--cor4);
+}
+
+.footer{
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+    padding: 10px 5%;
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.contato:hover{
+    fill: var(--cor3);
+    transition: 0.4s;
+}
+
+.tecnologias{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 10px 0px;
+    gap: 10px;
+}
+
+.tecnologia{
+    width: 30px;
+}
+
+.copy{
+    padding: 10px;
+    text-align: center;
+}

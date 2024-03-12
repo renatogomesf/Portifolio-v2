@@ -44,7 +44,9 @@
 }
 
 .contato{
-    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 35px;
     cursor: pointer;
     transition: 0.4s;
