@@ -6,7 +6,7 @@ import styles from './Sobre.module.css'
 
 export default function Sobre() {
     return (
-        <section className={styles.sobreMim}>
+        <section id="sobremim" className={styles.sobreMim}>
             <h3 className={styles.titulo}>Sobre mim</h3>
             <div className={styles.img_texto}>
                 <img className={styles.fala} src={Fala} alt="fala" />

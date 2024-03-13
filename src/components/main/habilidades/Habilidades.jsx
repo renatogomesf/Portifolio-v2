@@ -12,7 +12,7 @@ import styles from './Habilidades.module.css'
 
 export default function Habilidades() {
     return (
-        <section className={styles.habilidades}>
+        <section id="habilidades" className={styles.habilidades}>
             <h3 className={styles.titulo}>Habilidades</h3>
             <div className={styles.tecnologias}>
                 

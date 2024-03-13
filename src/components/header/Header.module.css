@@ -75,6 +75,10 @@
     transition: 0.4s;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 
 @media (min-width: 706px) {

@@ -26,7 +26,7 @@ export default function Header() {
     }
 
     return (
-        <header className={styles.topo}>
+        <header id='home' className={styles.topo}>
             <div className={styles.logoNome}>
                 <img className={styles.logo} src={Logo} alt="logo" />
                 <div className={styles.nome}>
@@ -42,10 +42,22 @@ export default function Header() {
                 <IoClose className={styles.closeMenu} onClick={()=>fecharMenu()}/>
 
                 <ul className={styles.menu}>
-                    <li className={styles.item} onClick={()=>fecharMenu()}>Sobre mim</li>
-                    <li className={styles.item} onClick={()=>fecharMenu()}>Habilidades</li>
-                    <li className={styles.item} onClick={()=>fecharMenu()}>Projetos</li>
-                    <li className={styles.item} onClick={()=>fecharMenu()}>Contato</li>
+                    <a href="#sobremim">
+                        <li className={styles.item} onClick={()=>fecharMenu()}>Sobre mim</li>
+                    </a>
+
+                    <a href="#habilidades">
+                        <li className={styles.item} onClick={()=>fecharMenu()}>Habilidades</li>
+                    </a>
+
+                    <a href="#projetos">
+                        <li className={styles.item} onClick={()=>fecharMenu()}>Projetos</li>
+                    </a>
+
+                    <a href="">
+                        <li className={styles.item} onClick={()=>fecharMenu()}>Contato</li>
+                    </a>
+
                 </ul>
             </nav>
         </header>
