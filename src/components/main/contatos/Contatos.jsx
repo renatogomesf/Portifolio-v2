@@ -10,12 +10,12 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Contatos() {
 
-    const btn_copiar = document.getElementsByClassName(styles.btn_copiar)
     const texto_email = document.getElementsByClassName("texto_email")
 
-    btn_copiar[0].addEventListener("click",()=>{
+    const copiar=()=>{
         navigator.clipboard.writeText(texto_email[0].innerHTML)
-    })
+    }
+
 
     return (
         <section id="contatos" className={styles.contatos}>
@@ -59,7 +59,7 @@ export default function Contatos() {
                             renato_gfe@hotmail.com
                         </p>
                         
-                        <button className={styles.btn_copiar}>
+                        <button onClick={()=>copiar()} className={styles.btn_copiar}>
                             <FaCopy className={styles.icon_copiar}/> 
                             <p>Copiar e-mail</p>
                         </button>
