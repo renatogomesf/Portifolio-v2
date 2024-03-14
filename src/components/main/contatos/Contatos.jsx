@@ -5,17 +5,10 @@ import styles from './Contatos.module.css'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { FaCopy } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { IoIosSend } from "react-icons/io";
 
 export default function Contatos() {
-
-    const texto_email = document.getElementsByClassName("texto_email")
-
-    const copiar=()=>{
-        navigator.clipboard.writeText(texto_email[0].innerHTML)
-    }
-
 
     return (
         <section id="contatos" className={styles.contatos}>
@@ -59,10 +52,12 @@ export default function Contatos() {
                             renato_gfe@hotmail.com
                         </p>
                         
-                        <button onClick={()=>copiar()} className={styles.btn_copiar}>
-                            <FaCopy className={styles.icon_copiar}/> 
-                            <p>Copiar e-mail</p>
-                        </button>
+                        <a href="mailto:renato_gfe@hotmail.com">
+                            <button className={styles.btn_enviar}>
+                                <IoIosSend className={styles.icon_enviar}/>
+                                <p>Enviar e-mail</p>
+                            </button>
+                        </a>
                     </div>
                     <hr className={styles.linha} />
                 </div>

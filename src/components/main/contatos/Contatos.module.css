@@ -99,7 +99,7 @@
     font-size: 30px;
 }
 
-.btn_copiar{
+.btn_enviar{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,13 +112,13 @@
     transition: 0.4s;
 }
 
-.btn_copiar:hover{
+.btn_enviar:hover{
     background-color: var(--cor1);
     box-shadow: 0px 0px 1px 2px var(--cor5);
     transition: 0.4s;
 }
 
-.icon_copiar{
+.icon_enviar{
     font-size: 20px;
 }
 
