@@ -54,8 +54,8 @@ export default function Header() {
                         <li className={styles.item} onClick={()=>fecharMenu()}>Projetos</li>
                     </a>
 
-                    <a href="">
-                        <li className={styles.item} onClick={()=>fecharMenu()}>Contato</li>
+                    <a href="#contatos">
+                        <li className={styles.item} onClick={()=>fecharMenu()}>Contatos</li>
                     </a>
 
                 </ul>
