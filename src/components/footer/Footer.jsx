@@ -17,8 +17,8 @@ export default function Footer() {
                     <p>Tecnologias utilizadas no portifólio: </p>
                     <div className={styles.tecnologias}>
                         <img className={styles.tecnologia} src={REACT} alt="logo react" />
-                        <img className={styles.tecnologia} src={JAVASCRIPT} alt="logo javascript" />
                         <img className={styles.tecnologia} src={CSS} alt="logo css" />
+                        <img className={styles.tecnologia} src={JAVASCRIPT} alt="logo javascript" />
                     </div>
                 </div>
 

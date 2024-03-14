@@ -5,6 +5,7 @@ import CSS from './img/css.png'
 import JAVASCRIPT from './img/javascript.png'
 import REACT from './img/react.png'
 import VITE from './img/vite.png'
+import VSCODE from './img/vscode.png'
 import GIT from './img/git.png'
 import GITHUB from './img/github.png'
 
@@ -56,6 +57,12 @@ export default function Habilidades() {
                     <img className={styles.img_github} src={GITHUB} alt="logo github" />
                     <p>GitHub</p>
                     <span className={styles.animaçao_github}></span>
+                </div>
+
+                <div className={styles.tecnologia}>
+                    <img className={styles.img_vscode} src={VSCODE} alt="logo vscode" />
+                    <p>VS Code</p>
+                    <span className={styles.animaçao_vscode}></span>
                 </div>
 
             </div>

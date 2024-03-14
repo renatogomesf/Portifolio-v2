@@ -13,7 +13,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* border: 1px solid var(--cor4); */
     width: 100%;
     max-width: 1100px;
 }
@@ -36,7 +35,8 @@
 
 .projeto01,
 .projeto02,
-.projeto03{
+.projeto03,
+.projeto04{
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -65,7 +65,8 @@
 
 .descriçao01,
 .descriçao02,
-.descriçao03{
+.descriçao03,
+.descriçao04{
     width: 100%;
     max-width: 400px;
     display: flex;
