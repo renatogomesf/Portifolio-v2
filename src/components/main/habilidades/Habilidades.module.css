@@ -51,7 +51,8 @@
 .img_vite,
 .img_vscode,
 .img_git,
-.img_github{
+.img_github,
+.img_tailwind{
     margin: 20px;
     width: 100px;
     filter: drop-shadow(5px 5px 5px black);
@@ -64,7 +65,8 @@
 .animaçao_vite::before,
 .animaçao_vscode::before,
 .animaçao_git::before,
-.animaçao_github::before{
+.animaçao_github::before,
+.animaçao_tailwind::before{
     content: "";
     width: 100px;
     height: 350px;
@@ -83,7 +85,8 @@
 .animaçao_vite::after,
 .animaçao_vscode::after,
 .animaçao_git::after,
-.animaçao_github::after{
+.animaçao_github::after,
+.animaçao_tailwind::after{
     content: "";
     background-color: var(--cor2);
     position: absolute;
@@ -127,6 +130,10 @@
     background-color: #3c99d4;
 }
 
+/* .animaçao_tailwind::before{
+    background-color: #35bef8;
+} */
+
 
 
 @keyframes rodar {
@@ -142,5 +149,20 @@
 @media (max-width: 290px) {
     .titulo{
         font-size: 2rem;
+    }
+}
+
+
+.estudando{
+    animation: estudando 0.8s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes estudando {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
     }
 }

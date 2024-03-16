@@ -8,6 +8,7 @@ import VITE from './img/vite.png'
 import VSCODE from './img/vscode.png'
 import GIT from './img/git.png'
 import GITHUB from './img/github.png'
+import TAILWIND from './img/tailwind.png'
 
 import styles from './Habilidades.module.css'
 
@@ -63,6 +64,13 @@ export default function Habilidades() {
                     <img className={styles.img_vscode} src={VSCODE} alt="logo vscode" />
                     <p>VS Code</p>
                     <span className={styles.animaçao_vscode}></span>
+                </div>
+
+                <div className={styles.tecnologia}>
+                    <h3 className={styles.estudando}>Estudando...</h3>
+                    <img className={styles.img_tailwind} src={TAILWIND} alt="logo tailwind" />
+                    <p>Tailwind</p>
+                    <span className={styles.animaçao_tailwind}></span>
                 </div>
 
             </div>
