@@ -43,6 +43,12 @@ export default function Habilidades() {
                 </div>
 
                 <div className={styles.tecnologia}>
+                    <img className={styles.img_tailwind} src={TAILWIND} alt="logo tailwind" />
+                    <p>Tailwind</p>
+                    <span className={styles.animaçao_tailwind}></span>
+                </div>
+                
+                <div className={styles.tecnologia}>
                     <img className={styles.img_vite} src={VITE} alt="logo vite" />
                     <p>Vite</p>
                     <span className={styles.animaçao_vite}></span>
@@ -66,12 +72,6 @@ export default function Habilidades() {
                     <span className={styles.animaçao_vscode}></span>
                 </div>
 
-                <div className={styles.tecnologia}>
-                    <h3 className={styles.estudando}>Estudando...</h3>
-                    <img className={styles.img_tailwind} src={TAILWIND} alt="logo tailwind" />
-                    <p>Tailwind</p>
-                    <span className={styles.animaçao_tailwind}></span>
-                </div>
 
             </div>
         </section>
