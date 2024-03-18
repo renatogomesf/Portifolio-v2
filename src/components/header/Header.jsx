@@ -27,39 +27,35 @@ export default function Header() {
 
     return (
         <header id='home' className={styles.topo}>
-            <div className={styles.logoNome}>
-                <img className={styles.logo} src={Logo} alt="logo" />
-                <div className={styles.nome}>
-                    <span className={styles.letra}>R</span>
-                    <span className={styles.letra}>D</span>
-                    <span className={styles.letra}>E</span>
-                    <span className={styles.letra}>V</span>
+            <div className={styles.content}>
+                <div className={styles.logoNome}>
+                    <img className={styles.logo} src={Logo} alt="logo" />
+                    <div className={styles.nome}>
+                        <span className={styles.letra}>R</span>
+                        <span className={styles.letra}>D</span>
+                        <span className={styles.letra}>E</span>
+                        <span className={styles.letra}>V</span>
+                    </div>
                 </div>
+                <nav className={styles.navegaçao}>
+                    <IoMenu className={styles.openMenu} onClick={()=>abrirMenu()}/>
+                    <IoClose className={styles.closeMenu} onClick={()=>fecharMenu()}/>
+                    <ul className={styles.menu}>
+                        <a href="#sobremim">
+                            <li className={styles.item} onClick={()=>fecharMenu()}>Sobre mim</li>
+                        </a>
+                        <a href="#habilidades">
+                            <li className={styles.item} onClick={()=>fecharMenu()}>Habilidades</li>
+                        </a>
+                        <a href="#projetos">
+                            <li className={styles.item} onClick={()=>fecharMenu()}>Projetos</li>
+                        </a>
+                        <a href="#contatos">
+                            <li className={styles.item} onClick={()=>fecharMenu()}>Contatos</li>
+                        </a>
+                    </ul>
+                </nav>
             </div>
-            <nav className={styles.navegaçao}>
-                <IoMenu className={styles.openMenu} onClick={()=>abrirMenu()}/>
-
-                <IoClose className={styles.closeMenu} onClick={()=>fecharMenu()}/>
-
-                <ul className={styles.menu}>
-                    <a href="#sobremim">
-                        <li className={styles.item} onClick={()=>fecharMenu()}>Sobre mim</li>
-                    </a>
-
-                    <a href="#habilidades">
-                        <li className={styles.item} onClick={()=>fecharMenu()}>Habilidades</li>
-                    </a>
-
-                    <a href="#projetos">
-                        <li className={styles.item} onClick={()=>fecharMenu()}>Projetos</li>
-                    </a>
-
-                    <a href="#contatos">
-                        <li className={styles.item} onClick={()=>fecharMenu()}>Contatos</li>
-                    </a>
-
-                </ul>
-            </nav>
         </header>
     )
 }

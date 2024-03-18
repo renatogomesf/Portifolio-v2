@@ -26,15 +26,22 @@
 }
 
 .profissao{
-    animation: prof 2s ease;
-    animation-delay: 1s;
-    animation-fill-mode: backwards;
+    display: inline-block;
+    position: relative;
 }
 
-.linha{
-    animation: linha 10s infinite ease;
-    animation-delay: 2s;
-    animation-fill-mode: backwards;
+.profissao::before{
+    content: "";
+    position: absolute;
+    background-color: var(--cor1);
+    border-left: 3px solid white;
+    right: -6px;
+    width: 0%;
+    height: 100%;
+
+    animation: prof 5s steps(25) infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
 }
 
 .contatos{
@@ -69,25 +76,15 @@
 
 @keyframes prof {
     0%{
-        filter: blur(10px);
-    }
-
-    100%{
-        filter: blur(0px);
-    }
-}
-
-@keyframes linha {
-    0%{
-        width: 0px;
+        width: 0%;
     }
 
     50%{
-        width: 100%;
+        width: 0%;
     }
 
     100%{
-        width: 0px;
+        width: 107%;
     }
 }
 

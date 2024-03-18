@@ -11,8 +11,16 @@
 .topo{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     box-shadow: 0px 1px 20px black;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 980px;
     padding: 10px 10%;
 }
 
@@ -29,7 +37,7 @@
 }
 
 .logo:hover{
-    transform: rotate(45deg);
+    transform: rotate(360deg);
     transition: 0.4s;
 }
 
@@ -38,13 +46,13 @@
     font-size: 1.3rem;
     cursor: default;
     display: inline-block;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .letra:hover{
     transform: translateY(-5px);
     color: var(--cor2);
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .menu{

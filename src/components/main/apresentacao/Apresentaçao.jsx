@@ -14,7 +14,6 @@ export default function Apresentaçao() {
                 <h1 className={styles.nome}>Renato Gomes.</h1>
                 <h2 className={styles.profissao}>
                     Desenvolvedor Front-End.
-                    <hr className={styles.linha} />
                 </h2>
                 <div className={styles.contatos}>
                     <a href="https://github.com/renatogomesf" target='blanck'>
