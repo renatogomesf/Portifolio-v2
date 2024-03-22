@@ -18,7 +18,7 @@ export default function Projetos() {
 
                 <div className={styles.projeto01}>
 
-                    <a href="https://renatogomesf.github.io/Portifolio/" target="_blank">
+                    <a href="https://renatogomesf.github.io/Primeiro-Portifolio/" target="_blank">
                         <img className={styles.img_projeto} src={PORTIFOLIO_ANTIGO} alt="primeiro portifólio"/>
                     </a>
 
