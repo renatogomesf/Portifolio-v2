@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './Projetos.module.css'
 
-import PAGINA_DE_HOTEIS from './img/pagina-de-hoteis.png'
+import PAGINA_DE_RESORTS from './img/pagina-de-resorts.png'
 import PORTIFOLIO_ANTIGO from './img/portifolio-antigo.png'
 import JOGO_PERGUNTA from './img/jogo de perguntas.png'
 import CALCULADORA from './img/calculadora.png'
@@ -21,20 +21,20 @@ export default function Projetos() {
 
                 <div className={styles.projeto}>
 
-                    <a href="https://renatogomesf.github.io/pagina-de-hoteis/" target="_blank">
-                        <img className={styles.img_projeto} src={PAGINA_DE_HOTEIS} alt="página de hoteis"/>
+                    <a href="https://renatogomesf.github.io/Pagina-de-Resorts/" target="_blank">
+                        <img className={styles.img_projeto} src={PAGINA_DE_RESORTS} alt="página de hoteis"/>
                     </a>
 
                     <div className={styles.descriçao}>
-                        <h4 className={styles.nome}>Página de Hoteis.</h4>
-                        <p>Página destinada a facilitar a procura e a reserva de hoteis e resorts na região desejada pelo usuário.</p>
+                        <h4 className={styles.nome}>Página de Resorts.</h4>
+                        <p>Página destinada a facilitar a procura e a reserva de resorts na região desejada pelo usuário.</p>
                         <p>Tecnologias usadas:</p>
                         <div className={styles.tecnologias}>
                             <img className={styles.tecnologia} src={REACT} alt="html"/>
                             <img className={styles.tecnologia} src={TAILWIND} alt="css"/>
                             <img className={styles.tecnologia} src={JAVASCRIPT} alt="javascript"/>
                         </div>
-                        <a href="https://github.com/renatogomesf/pagina-de-hoteis" target="_blank">
+                        <a href="https://github.com/renatogomesf/Pagina-de-Resorts" target="_blank">
                             <button className={styles.ver_codigo}>Ver código.</button>
                         </a>
                     </div>
