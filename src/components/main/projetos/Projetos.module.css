@@ -33,10 +33,7 @@
     width: 90%;
 }
 
-.projeto01,
-.projeto02,
-.projeto03,
-.projeto04{
+.projeto{
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -63,10 +60,7 @@
     transition: 0.4s;
 }
 
-.descriçao01,
-.descriçao02,
-.descriçao03,
-.descriçao04{
+.descriçao{
     width: 100%;
     max-width: 400px;
     display: flex;

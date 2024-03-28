@@ -39,7 +39,7 @@
     width: 0%;
     height: 100%;
 
-    animation: prof 5s steps(25) infinite;
+    animation: prof 5s steps(25) infinite, piscarprof 0.5s infinite linear;
     animation-delay: 1s;
     animation-direction: alternate;
 }
@@ -85,6 +85,16 @@
 
     100%{
         width: 107%;
+    }
+}
+
+@keyframes piscarprof {
+    from{
+        border-left: 3px solid var(--cor1);
+    }
+
+    to{
+        border-left: 3px solid white;
     }
 }
 
