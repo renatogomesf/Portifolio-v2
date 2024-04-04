@@ -1,6 +1,7 @@
 import React from "react";
 import styles from './Projetos.module.css'
 
+import LANDING_PAGE from './img/landing page.png'
 import PAGINA_DE_RESORTS from './img/pagina-de-resorts.png'
 import PORTIFOLIO_ANTIGO from './img/portifolio-antigo.png'
 import JOGO_PERGUNTA from './img/jogo de perguntas.png'
@@ -18,6 +19,28 @@ export default function Projetos() {
         <section id="projetos" className={styles.projetos}>
             <h3 className={styles.titulo}>Projetos</h3>
             <div className={styles.criaçoes}>
+
+                <div className={styles.projeto}>
+
+                    <a href="https://renatogomesf.github.io/Landing-Page/" target="_blank">
+                        <img className={styles.img_projeto} src={LANDING_PAGE} alt="Landing page"/>
+                    </a>
+
+                    <div className={styles.descriçao}>
+                        <h4 className={styles.nome}>Landing page Restaurante.</h4>
+                        <p>Página destinada a divulgar um determinado restaurante com foco em delivery.</p>
+                        <p>Tecnologias usadas:</p>
+                        <div className={styles.tecnologias}>
+                            <img className={styles.tecnologia} src={REACT} alt="html"/>
+                            <img className={styles.tecnologia} src={TAILWIND} alt="css"/>
+                            <img className={styles.tecnologia} src={JAVASCRIPT} alt="javascript"/>
+                        </div>
+                        <a href="https://github.com/renatogomesf/Landing-Page" target="_blank">
+                            <button className={styles.ver_codigo}>Ver código.</button>
+                        </a>
+                    </div>
+
+                </div>
 
                 <div className={styles.projeto}>
 
