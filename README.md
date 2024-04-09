@@ -18,21 +18,12 @@ O projeto consiste em uma página onde busca expor, de forma simplificada, quem 
 
 ![web 1](https://raw.githubusercontent.com/renatogomesf/imagens-projetos/main/imagens/portif%C3%B3lio%20proficional/web-1.png) ![web 2](https://raw.githubusercontent.com/renatogomesf/imagens-projetos/main/imagens/portif%C3%B3lio%20proficional/web-2.png)
 
-## Tecnologias utilizadas
+## Tecnologias
+Essas são as tecnologías utilizadas no projeto:
 
 * React.js
 * CSS
 * JavaScript
-
-## Como usar
-
-Logo no topo, há uma barra de navegação na qual é possível escolher uma opção e, após o clique, será feita a rolagem até a seção desejada. Para não ser necessário fazer a rolagem manual até o topo, do lado direito inferior, há um botão que fará isso para você. Abaixo da área de atuação e há dois ícones que, ao serem clicados, redirecionam para o github e linkedin, respectivamente.
-
-Na seção "Sobre mim", há dois botões que, ao serem clicados e estando na verção web, é possível vizualizar o currículo ou baixa-lo, se assim desejar. Caso o acesso seja via mobile, os dois botões acabam baixando o currículo instantaneamente.
-
-Na seção "Projetos", para acessar a aplicação, basta clicar na imagem. Para ver o repositório, basta clicar no botão "Ver código."
-
-Na seção "Contatos" há, também, dois ícones que, ao serem clicados, redirecionam para o github e linkedin. Logo abaixo está meu E-mail com um botão que, ao ser clicado, abre automaticamente seu aplicativo de envio de email padrão.
 
 ## Autor
 
