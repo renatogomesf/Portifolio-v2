@@ -12,7 +12,7 @@ O projeto consiste em uma página onde busca expor, de forma simplificada, quem 
 
 ## Layout mobile
 
-![mobile 1](https://raw.githubusercontent.com/renatogomesf/imagens-projetos/main/imagens/portif%C3%B3lio%20proficional/mobile-1.png) ![mobile 2](https://raw.githubusercontent.com/renatogomesf/imagens-projetos/main/imagens/portif%C3%B3lio%20proficional/mobile-2.png) ![mobile 3](https://raw.githubusercontent.com/renatogomesf/imagens-projetos/main/imagens/portif%C3%B3lio%20proficional/mobile-3.png)
+![mobile 1](https://raw.githubusercontent.com/renatogomesf/imagens-projetos/main/imagens/portif%C3%B3lio%20proficional/mobile-1.png) ![mobile 3](https://raw.githubusercontent.com/renatogomesf/imagens-projetos/main/imagens/portif%C3%B3lio%20proficional/mobile-3.png)
 
 ## Layout web
 
