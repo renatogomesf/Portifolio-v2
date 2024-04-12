@@ -25,6 +25,11 @@ Essas são as tecnologías utilizadas no projeto:
 * CSS
 * JavaScript
 
+## Bibliotecas
+Essas são as bibliotecas utilizadas no projeto:
+
+* [React Icons](https://react-icons.github.io/react-icons/)
+
 ## Autor
 
 Renato Gomes Ferreira
