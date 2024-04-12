@@ -4,6 +4,7 @@ import HTML from './img/html.png'
 import CSS from './img/css.png'
 import JAVASCRIPT from './img/javascript.png'
 import REACT from './img/react.png'
+import STYLED_COMPONENT from './img/styled-components.png'
 import VITE from './img/vite.png'
 import VSCODE from './img/vscode.png'
 import GIT from './img/git.png'
@@ -40,6 +41,12 @@ export default function Habilidades() {
                     <img className={styles.img_react} src={REACT} alt="logo react.js" />
                     <p>React.js</p>
                     <span className={styles.animaçao_react}></span>
+                </div>
+
+                <div className={styles.tecnologia}>
+                    <img className={styles.img_styled} src={STYLED_COMPONENT} alt="logo styled component" />
+                    <p>Styled Component</p>
+                    <span className={styles.animaçao_styled}></span>
                 </div>
 
                 <div className={styles.tecnologia}>

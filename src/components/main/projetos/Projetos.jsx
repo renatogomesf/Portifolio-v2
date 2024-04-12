@@ -1,6 +1,7 @@
 import React from "react";
 import styles from './Projetos.module.css'
 
+import LANDING_PAGE_BARBEARIA from './img/landing-page-barbearia.png'
 import LANDING_PAGE from './img/landing page.png'
 import PAGINA_DE_RESORTS from './img/pagina-de-resorts.png'
 import PORTIFOLIO_ANTIGO from './img/portifolio-antigo.png'
@@ -12,6 +13,7 @@ import HTML from '../habilidades/img/html.png'
 import CSS from '../habilidades/img/css.png'
 import JAVASCRIPT from '../habilidades/img/javascript.png'
 import REACT from '../habilidades/img/react.png'
+import STYLED_COMPONENT from '../habilidades/img/styled-components.png'
 import TAILWIND from '../habilidades/img/tailwind.png'
 
 export default function Projetos() {
@@ -19,6 +21,28 @@ export default function Projetos() {
         <section id="projetos" className={styles.projetos}>
             <h3 className={styles.titulo}>Projetos</h3>
             <div className={styles.criaçoes}>
+
+                <div className={styles.projeto}>
+
+                    <a href="https://renatogomesf.github.io/Landing-Page-Barbearia/" target="_blank">
+                        <img className={styles.img_projeto} src={LANDING_PAGE_BARBEARIA} alt="Landing page barbearia"/>
+                    </a>
+
+                    <div className={styles.descriçao}>
+                        <h4 className={styles.nome}>Landing page Barbearia</h4>
+                        <p>Página destinada a divulgar uma determinada barbearia com cortes de cabelo e barba.</p>
+                        <p>Tecnologias usadas:</p>
+                        <div className={styles.tecnologias}>
+                            <img className={styles.tecnologia} src={REACT} alt="html"/>
+                            <img className={styles.tecnologia} src={STYLED_COMPONENT} alt="styled component"/>
+                            <img className={styles.tecnologia} src={JAVASCRIPT} alt="javascript"/>
+                        </div>
+                        <a href="https://github.com/renatogomesf/Landing-Page-Barbearia" target="_blank">
+                            <button className={styles.ver_codigo}>Ver código.</button>
+                        </a>
+                    </div>
+
+                </div>
 
                 <div className={styles.projeto}>
 
@@ -32,7 +56,7 @@ export default function Projetos() {
                         <p>Tecnologias usadas:</p>
                         <div className={styles.tecnologias}>
                             <img className={styles.tecnologia} src={REACT} alt="html"/>
-                            <img className={styles.tecnologia} src={TAILWIND} alt="css"/>
+                            <img className={styles.tecnologia} src={TAILWIND} alt="tailwind"/>
                             <img className={styles.tecnologia} src={JAVASCRIPT} alt="javascript"/>
                         </div>
                         <a href="https://github.com/renatogomesf/Landing-Page" target="_blank">
@@ -54,7 +78,7 @@ export default function Projetos() {
                         <p>Tecnologias usadas:</p>
                         <div className={styles.tecnologias}>
                             <img className={styles.tecnologia} src={REACT} alt="html"/>
-                            <img className={styles.tecnologia} src={TAILWIND} alt="css"/>
+                            <img className={styles.tecnologia} src={TAILWIND} alt="tailwind"/>
                             <img className={styles.tecnologia} src={JAVASCRIPT} alt="javascript"/>
                         </div>
                         <a href="https://github.com/renatogomesf/Pagina-de-Resorts" target="_blank">

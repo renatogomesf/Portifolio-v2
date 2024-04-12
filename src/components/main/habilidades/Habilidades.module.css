@@ -48,6 +48,7 @@
 .img_css,
 .img_js,
 .img_react,
+.img_styled,
 .img_tailwind,
 .img_vite,
 .img_git,
@@ -62,6 +63,7 @@
 .animaçao_css::before,
 .animaçao_js::before,
 .animaçao_react::before,
+.animaçao_styled::before,
 .animaçao_tailwind::before,
 .animaçao_vite::before,
 .animaçao_git::before,
@@ -82,6 +84,7 @@
 .animaçao_css::after,
 .animaçao_js::after,
 .animaçao_react::after,
+.animaçao_styled::after,
 .animaçao_tailwind::after,
 .animaçao_vite::after,
 .animaçao_git::after,
@@ -112,6 +115,10 @@
 
 .animaçao_react::before{
     background-color: #61dafb;
+}
+
+.animaçao_styled::before{
+    background-color: #ce6dba;
 }
 
 .animaçao_tailwind::before{
