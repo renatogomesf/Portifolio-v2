@@ -33,7 +33,7 @@ export default function Projetos() {
 
                     <div className={styles.descriçao}>
                         <h4 className={styles.nome}>Formulário Full-Stack</h4>
-                        <p>Formulário fullstack onde é possível cadastrar pessoas e realizar consultas por filtro ou ver todos os cadastros</p>
+                        <p>Formulário fullstack onde é possível cadastrar pessoas, realizar consultas por filtro, ver todos os cadastros, atualizar e deletar os cadastros. Ou seja, é possível realizar um CRUD completo.</p>
                         <p>Tecnologias usadas:</p>
                         <div className={styles.tecnologias}>
                             <img className={styles.tecnologia} src={REACT} alt="html"/>

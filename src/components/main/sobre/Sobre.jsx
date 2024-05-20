@@ -13,7 +13,7 @@ export default function Sobre() {
                 <div className={styles.paragrafos}>
                     
                     <p className={styles.paragrafo}>
-                        Oi! Sou <strong>Renato Gomes</strong>, tenho 27 anos e moro em Fortaleza - Ceará. Sou um <strong>Desenvolverdor Front-End</strong> e possuo 1 ano de estudos na área. Tudo o que eu aprendi foi sozinho e através do YouTube, com o professor Gustavo Guanabara, do canal Curso em Video, onde apredi <strong>HTML 5</strong>, <strong>CSS 3</strong> e o básico de JavaScript e com o Bruno Campos, do canal CFBCursos, onde aprendi mais a fundo <strong>JavaScript</strong> e aprendi do zero <strong>React.js</strong>.
+                        Oi! Sou <strong>Renato Gomes</strong>, tenho 27 anos e moro em Fortaleza - Ceará. Sou <strong>Desenvolverdor Front-End</strong>, onde possuo 1 ano de estudos na área, e agora estou me aventurando no <strong>Back-End</strong> com 1 mês de estudos já visando me tornar Full-Stack. Tudo o que eu aprendi foi sozinho e através do YouTube, com o professor Gustavo Guanabara, do canal Curso em Video, onde apredi <strong>HTML 5</strong>, <strong>CSS 3</strong> e o básico de JavaScript e com o Bruno Campos, do canal CFBCursos, onde aprendi mais a fundo <strong>JavaScript</strong> e aprendi do zero <strong>React.js</strong>.
                     </p>
 
                     <p className={styles.paragrafo}>
