@@ -65,6 +65,8 @@
 .animaçao_react::before,
 .animaçao_styled::before,
 .animaçao_tailwind::before,
+.animaçao_nodejs::before,
+.animaçao_mysql::before,
 .animaçao_vite::before,
 .animaçao_git::before,
 .animaçao_github::before,
@@ -86,6 +88,8 @@
 .animaçao_react::after,
 .animaçao_styled::after,
 .animaçao_tailwind::after,
+.animaçao_nodejs::after,
+.animaçao_mysql::after,
 .animaçao_vite::after,
 .animaçao_git::after,
 .animaçao_github::after,
@@ -123,6 +127,14 @@
 
 .animaçao_tailwind::before{
     background-color: #35bef8;
+}
+
+.animaçao_nodejs::before{
+    background-color: #529f41;
+}
+
+.animaçao_mysql::before{
+    background-color: #ffa518;
 }
 
 .animaçao_vite::before{

@@ -5,6 +5,8 @@ import CSS from './img/css.png'
 import JAVASCRIPT from './img/javascript.png'
 import REACT from './img/react.png'
 import STYLED_COMPONENT from './img/styled-components.png'
+import NODE_JS from './img/node-js.png'
+import MYSQL from './img/mysql.png'
 import VITE from './img/vite.png'
 import VSCODE from './img/vscode.png'
 import GIT from './img/git.png'
@@ -49,6 +51,19 @@ export default function Habilidades() {
                     <span className={styles.animaçao_styled}></span>
                 </div>
 
+
+                <div className={styles.tecnologia}>
+                    <img className={styles.img_tailwind} src={NODE_JS} alt="logo tailwind" />
+                    <p>Node.js</p>
+                    <span className={styles.animaçao_nodejs}></span>
+                </div>
+
+                <div className={styles.tecnologia}>
+                    <img className={styles.img_tailwind} src={MYSQL} alt="logo tailwind" />
+                    <p>MySQL</p>
+                    <span className={styles.animaçao_mysql}></span>
+                </div>
+                
                 <div className={styles.tecnologia}>
                     <img className={styles.img_tailwind} src={TAILWIND} alt="logo tailwind" />
                     <p>Tailwind</p>
