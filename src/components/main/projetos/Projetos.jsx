@@ -27,12 +27,12 @@ export default function Projetos() {
 
                 <div className={styles.projeto}>
 
-                    <a href="https://renatogomesf.github.io/Formulario/" target="_blank">
+                    <a href="https://renatogomesf.github.io/Formulario-MySQL/" target="_blank">
                         <img className={styles.img_projeto} src={FORMULARIO} alt="Formulário"/>
                     </a>
 
                     <div className={styles.descriçao}>
-                        <h4 className={styles.nome}>Formulário Full-Stack</h4>
+                        <h4 className={styles.nome}>Formulário Full-Stack (MySQL)</h4>
                         <p>Formulário fullstack onde é possível cadastrar pessoas, realizar consultas por filtro, ver todos os cadastros, atualizar e deletar os cadastros. Ou seja, é possível realizar um CRUD completo.</p>
                         <p>Tecnologias usadas:</p>
                         <div className={styles.tecnologias}>
@@ -42,7 +42,7 @@ export default function Projetos() {
                             <img className={styles.tecnologia} src={NODE_JS} alt="javascript"/>
                             <img className={styles.tecnologia} src={MYSQL} alt="javascript"/>
                         </div>
-                        <a href="https://github.com/renatogomesf/Formulario" target="_blank">
+                        <a href="https://github.com/renatogomesf/Formulario-MySQL" target="_blank">
                             <button className={styles.ver_codigo}>Ver código.</button>
                         </a>
                     </div>
