@@ -7,6 +7,7 @@ import REACT from './img/react.png'
 import STYLED_COMPONENT from './img/styled-components.png'
 import NODE_JS from './img/node-js.png'
 import MYSQL from './img/mysql.png'
+import MONGODB from './img/mongodb.png'
 import VITE from './img/vite.png'
 import VSCODE from './img/vscode.png'
 import GIT from './img/git.png'
@@ -53,15 +54,21 @@ export default function Habilidades() {
 
 
                 <div className={styles.tecnologia}>
-                    <img className={styles.img_tailwind} src={NODE_JS} alt="logo tailwind" />
+                    <img className={styles.img_nodejs} src={NODE_JS} alt="logo tailwind" />
                     <p>Node.js</p>
                     <span className={styles.animaçao_nodejs}></span>
                 </div>
 
                 <div className={styles.tecnologia}>
-                    <img className={styles.img_tailwind} src={MYSQL} alt="logo tailwind" />
+                    <img className={styles.img_mysql} src={MYSQL} alt="logo tailwind" />
                     <p>MySQL</p>
                     <span className={styles.animaçao_mysql}></span>
+                </div>
+
+                <div className={styles.tecnologia}>
+                    <img className={styles.img_mongodb} src={MONGODB} alt="logo tailwind" />
+                    <p>MongoDB Atlas</p>
+                    <span className={styles.animaçao_mongodb}></span>
                 </div>
                 
                 <div className={styles.tecnologia}>

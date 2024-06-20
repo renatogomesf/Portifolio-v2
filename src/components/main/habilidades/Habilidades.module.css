@@ -49,6 +49,9 @@
 .img_js,
 .img_react,
 .img_styled,
+.img_nodejs,
+.img_mysql,
+.img_mongodb,
 .img_tailwind,
 .img_vite,
 .img_git,
@@ -67,6 +70,7 @@
 .animaçao_tailwind::before,
 .animaçao_nodejs::before,
 .animaçao_mysql::before,
+.animaçao_mongodb::before,
 .animaçao_vite::before,
 .animaçao_git::before,
 .animaçao_github::before,
@@ -90,6 +94,7 @@
 .animaçao_tailwind::after,
 .animaçao_nodejs::after,
 .animaçao_mysql::after,
+.animaçao_mongodb::after,
 .animaçao_vite::after,
 .animaçao_git::after,
 .animaçao_github::after,
@@ -135,6 +140,10 @@
 
 .animaçao_mysql::before{
     background-color: #ffa518;
+}
+
+.animaçao_mongodb::before{
+    background-color: #00684a;
 }
 
 .animaçao_vite::before{

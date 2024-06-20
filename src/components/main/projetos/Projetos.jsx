@@ -1,6 +1,7 @@
 import React from "react";
 import styles from './Projetos.module.css'
 
+import FORMULARIO_MONGODB from './img/formulario-mongodb.png'
 import FORMULARIO from './img/formulario.png'
 import LANDING_PAGE_BARBEARIA from './img/landing-page-barbearia.png'
 import LANDING_PAGE from './img/landing page.png'
@@ -17,6 +18,7 @@ import REACT from '../habilidades/img/react.png'
 import STYLED_COMPONENT from '../habilidades/img/styled-components.png'
 import NODE_JS from '../habilidades/img/node-js.png'
 import MYSQL from '../habilidades/img/mysql.png'
+import MONGODB from '../habilidades/img/mongodb.png'
 import TAILWIND from '../habilidades/img/tailwind.png'
 
 export default function Projetos() {
@@ -24,6 +26,30 @@ export default function Projetos() {
         <section id="projetos" className={styles.projetos}>
             <h3 className={styles.titulo}>Projetos</h3>
             <div className={styles.criaçoes}>
+
+                <div className={styles.projeto}>
+
+                    <a href="https://renatogomesf.github.io/Formulario-MongoDB/" target="_blank">
+                        <img className={styles.img_projeto} src={FORMULARIO_MONGODB} alt="Formulário"/>
+                    </a>
+
+                    <div className={styles.descriçao}>
+                        <h4 className={styles.nome}>Formulário Full-Stack (MongoDB Atlas)</h4>
+                        <p>Formulário fullstack onde é possível cadastrar pessoas, realizar consultas por filtro, ver todos os cadastros, atualizar e deletar os cadastros. Ou seja, é possível realizar um CRUD completo.</p>
+                        <p>Tecnologias usadas:</p>
+                        <div className={styles.tecnologias}>
+                            <img className={styles.tecnologia} src={REACT} alt="html"/>
+                            <img className={styles.tecnologia} src={STYLED_COMPONENT} alt="styled component"/>
+                            <img className={styles.tecnologia} src={JAVASCRIPT} alt="javascript"/>
+                            <img className={styles.tecnologia} src={NODE_JS} alt="javascript"/>
+                            <img className={styles.tecnologia} src={MONGODB} alt="javascript"/>
+                        </div>
+                        <a href="https://github.com/renatogomesf/Formulario-MongoDB" target="_blank">
+                            <button className={styles.ver_codigo}>Ver código.</button>
+                        </a>
+                    </div>
+
+                </div>
 
                 <div className={styles.projeto}>
 
