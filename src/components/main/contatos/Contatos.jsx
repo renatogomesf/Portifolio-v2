@@ -49,6 +49,23 @@ export default function Contatos() {
                     <div className={styles.link}>
                         <MdEmail className={styles.icon_email} />
                         <p className="texto_email">
+                        renato.gfe.dev@gmail.com
+                        </p>
+                        
+                        <a href="mailto:renato.gfe.dev@gmail.com">
+                            <button className={styles.btn_enviar}>
+                                <IoIosSend className={styles.icon_enviar}/>
+                                <p>Enviar e-mail</p>
+                            </button>
+                        </a>
+                    </div>
+                    <hr className={styles.linha} />
+                </div>
+                
+                <div className={styles.email}>
+                    <div className={styles.link}>
+                        <MdEmail className={styles.icon_email} />
+                        <p className="texto_email">
                             renato_gfe@hotmail.com
                         </p>
                         

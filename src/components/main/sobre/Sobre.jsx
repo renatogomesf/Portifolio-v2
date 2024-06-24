@@ -13,11 +13,11 @@ export default function Sobre() {
                 <div className={styles.paragrafos}>
                     
                     <p className={styles.paragrafo}>
-                        Oi! Sou <strong>Renato Gomes</strong>, tenho 27 anos e moro em Fortaleza - Ceará. Sou <strong>Desenvolverdor Front-End</strong>, onde possuo 1 ano de estudos na área, e agora estou me aventurando no <strong>Back-End</strong> com 1 mês de estudos já visando me tornar Full-Stack. Tudo o que eu aprendi foi sozinho e através do YouTube, com o professor Gustavo Guanabara, do canal Curso em Video, onde apredi <strong>HTML 5</strong>, <strong>CSS 3</strong> e o básico de JavaScript e com o Bruno Campos, do canal CFBCursos, onde aprendi mais a fundo <strong>JavaScript</strong> e aprendi do zero <strong>React.js</strong>.
+                        Oi! Sou <strong>Renato Gomes</strong>, tenho 27 anos e moro em Fortaleza - Ceará. Sou <strong>Desenvolverdor Full Stack</strong>, onde possuo 1 ano de estudos em front-end e 3 meses de estudos em <strong>Back-End + Banco de dados.</strong> Tudo o que eu aprendi foi de forma independente e através do YouTube, com o professor Gustavo Guanabara, do canal Curso em Video, onde aprendi <strong>HTML 5, CSS 3</strong> e o básico de JavaScript e com o Bruno Campos, do canal CFBCursos, onde aprendi mais a fundo <strong>JavaScript</strong> e aprendi do zero <strong>React.js, Node.js e MySQL.</strong>
                     </p>
 
                     <p className={styles.paragrafo}>
-                        Gosto muito de tecnologia, adoro por a mão na massa, sou uma pessoa bem curiosa e gosto muito de saber como as coisas funcionam e aprender como se faz. Com a web não foi diferente, então fui atrás de saber como funcionava e me deparei com o mundo da programação. Foi difícil no começo, mas continuo evoluindo dia após dia.
+                        <strong>Gosto muito de tecnologia,</strong> adoro por a mão na massa, sou uma pessoa bem curiosa e gosto muito de saber como as coisas funcionam e aprender como se faz. Com a web não foi diferente, então fui atrás de saber como funcionava e me deparei com o mundo da programação. Foi difícil no começo, mas continuo <strong>evoluindo dia após dia.</strong>
                     </p>
 
                     <div className={styles.curriculo}>
